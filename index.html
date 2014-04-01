@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Gadz...</title>
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+        <script>window.jQuery || document.write('<script src="jquery-1.9.1.min.js"><\/script>')</script>
+		<script src="jquery.gadz.js"></script>
+		<style>
+			#note {margin:1em 1.5%;}
+			.tile {width:26%; padding:2%; margin:1em 1.5%; background-color:red; float:left;}
+		</style>
+		
+    </head>
+    <body>
+	<section id="note">
+		<h1>Gadz</h1>
+		<p>This plugin will resize all selected elements to be the same height as the tallest within the collection.</p>
+		<p><strong>NOTE:</strong> This is not  a clean solution. There are better ways to handle tiles of the same height using only css. However, there are times where a css solution is not possible, an so a javascript solution is needed (Ick!)</p>
+	</section>
+	<section id="tiles">
+		<div class="tile">
+			<p>Bacon ipsum dolor sit amet wholegrain olive lavash marble, biscuit potato scone corn white roll boule pita sourdough soda cracker. Focaccia biscuit hardtack wheat. Focaccia biscuit ciabatta, wheat cracker rye baguette potato spelt olive banana lavash tortilla garlic panettone. Soda brioche multigrain pumpernickel toast baguette scone biscuit tortilla rye.</p>
+		</div>
+		
+		<div class="tile">
+			<p>Focaccia scone hardtack naan crumpet corn wheat rye cracker. Croissant cracker wholegrain potato boule. Cracker muffin white garlic. Baguette hardtack lavash matzo wheat tortilla boule ciabatta. Ciabatta baguette soda potato panettone lavash, olive sourdough rye wholegrain wheat pumpernickel hardtack. Pumpernickel crumpet biscuit corn matzo. Matzo roll cracker wholegrain wheat focaccia.</p>
+		</div>
+
+		<div class="tile">
+			<p>Panettone multigrain muffin ciabatta. Crumpet banana hardtack muffin naan. Multigrain boule scone wholegrain muffin focaccia lavash wheat toast roll. Soda ciabatta pita toast garlic focaccia pumpernickel spelt. Pumpernickel garlic bagel cracker soda, quick hardtack. Lavash corn croissant muffin matzo.</p>
+		</div>
+		
+		<div class="tile">
+			<p>Scone crumpet cracker tortilla ciabatta bun. Ciabatta lavash sourdough garlic tortilla. Toast matzo naan potato, boule brioche spelt wholegrain roll tortilla garlic focaccia crumpet sourdough. Corn potato wheat, sourdough olive muffin pita baguette matzo biscuit spelt croissant roll. Spelt muffin naan olive biscuit. Muffin white banana cracker wholegrain potato baguette biscuit rye, matzo toast quick scone bun.</p>
+		</div>
+		
+		<div class="tile">
+			<p>White boule banana, sourdough lavash scone bagel tortilla focaccia wheat naan marble multigrain. Bagel wholegrain ciabatta panettone marble. Sourdough pumpernickel panettone croissant muffin. Spelt wheat wholegrain garlic crumpet tortilla marble white matzo. Pita bagel banana white muffin rye croissant baguette naan brioche soda quick. Rye roll wholegrain panettone, matzo sourdough wheat croissant. Banana toast pita white wheat garlic.</p>
+		</div>
+
+		<div class="tile">
+			<p>Bacon ipsum dolor sit amet roll olive corn, multigrain lavash tortilla focaccia croissant cracker brioche crumpet spelt matzo. Pita pumpernickel bagel wheat lavash potato cracker baguette ciabatta. Sourdough boule baguette bun wholegrain croissant marble olive multigrain crumpet pita roll potato spelt. Biscuit olive pumpernickel multigrain muffin naan scone wholegrain bagel brioche corn croissant quick focaccia garlic. Matzo hardtack croissant baguette marble.</p>
+		</div>
+	</section>
+		
+		<div class="tile">
+			<p>Bacon ipsum dolor sit amet banana garlic rye focaccia brioche multigrain pumpernickel roll wheat potato spelt cracker lavash marble soda. Spelt crumpet white hardtack brioche focaccia ciabatta naan roll. Matzo naan focaccia spelt, banana roll sourdough hardtack. Wholegrain panettone scone bagel rye, multigrain ciabatta wheat garlic biscuit white corn spelt soda.</p>
+		</div>
+		
+		<div class="tile">
+			<p>Baguette lavash garlic, muffin ciabatta toast potato. Hardtack bun cracker panettone soda multigrain. Pita spelt ciabatta panettone corn white naan crumpet sourdough wheat. Naan rye focaccia, muffin olive tortilla soda hardtack lavash roll banana. Scone naan soda muffin wheat. Brioche quick lavash soda boule sourdough.</p>
+		</div>
+
+		<div class="tile">
+			<p>Focaccia pita multigrain, marble biscuit lavash panettone naan. Focaccia roll wholegrain toast quick. Multigrain croissant wholegrain, brioche naan cracker scone roll spelt pumpernickel baguette. Wholegrain cracker focaccia sourdough scone. Scone panettone rye crumpet multigrain roll olive pumpernickel bagel garlic wheat. Corn marble croissant lavash scone quick pita. Multigrain toast white biscuit roll ciabatta marble olive scone wheat boule soda tortilla hardtack naan.</p>
+		</div>
+	</section>
+
+	<script>
+		$('.tile').gadz();
+	</script>
+	
+    </body>
+</html>
+        
